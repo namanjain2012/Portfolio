@@ -93,3 +93,19 @@ if(contactForm) {
         }
     });
 }
+
+/*===== SCROLL REVEAL ANIMATION FOR EXPERIENCE =====*/
+ScrollReveal().reveal('.sr-experience', {
+    origin: 'bottom',
+    distance: '50px',
+    duration: 1000,
+    delay: 200,
+    reset: true
+});
+ScrollReveal().reveal('.sr-work', {
+    origin: 'bottom',
+    distance: '40px',
+    duration: 1000,
+    delay: 200,
+    reset: true
+});
